@@ -100,7 +100,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #FFFFFF;
+  color:#800000;
 }
 
 a:hover,
@@ -4281,9 +4281,7 @@ footer a {
 
 
 .events:hover{
-  border-radius: 5%;
-  background-color:#793ea5 ;
-  color: #ffffff;
+  border-bottom: 3px solid #800000;
 }
 
 .typewrite{
