@@ -79,11 +79,14 @@ var HoverButton = function () {
   return HoverButton;
 }();
 
-var btn1 = document.querySelector('li:nth-child(1) button');
+var btn1 = document.getElementById("a1");
 new HoverButton(btn1);
 
-var btn2 = document.querySelector('li:nth-child(2) button');
+var btn2 = document.getElementById("a2");
 new HoverButton(btn2);
 
-var btn3 = document.querySelector('li:nth-child(3) button');
+var btn3 = document.getElementById("a3");
 new HoverButton(btn3);
+
+var btn4 = document.getElementById("a4");
+new HoverButton(btn4);
