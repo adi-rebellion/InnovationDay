@@ -1758,7 +1758,7 @@ body.menu-is-open {
 .header-nav a:hover,
 .header-nav a:focus,
 .header-nav a:active {
-  color:#793ea5;
+  color:#800000;
   text-decoration: line-through;
 
 }
@@ -1774,7 +1774,7 @@ body.menu-is-open {
   margin-bottom: 7.2rem;
   margin-top: 1.2rem;
   padding-right: 140px;
-  color: #793ea5;
+  color: #800000;
   position: relative;
 }
 
@@ -1783,7 +1783,7 @@ body.menu-is-open {
   display: block;
   height: 1px;
   width: 110px;
-  background-color: #793ea5;
+  background-color: #800000;
   position: absolute;
   top: 50%;
   right: 0;
@@ -1841,11 +1841,11 @@ body.menu-is-open {
 }
 
 .header-nav__list a:hover::before {
-  color: #793ea5;
+  color: #800000;
 }
 
 .header-nav__list .current a::before {
-  color: #793ea5;
+  color: #800000;
 }
 
 .header-nav__social {
