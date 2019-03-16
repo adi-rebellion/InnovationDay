@@ -4127,7 +4127,8 @@ li:nth-child(3) button {
 #a2 {
   display: inline-block;
   position: relative;
-  background: rebeccapurple;
+  background-image: url("../images/energy.png");
+  background-size: contain;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -4144,7 +4145,8 @@ li:nth-child(3) button {
 #a3 {
   display: inline-block;
   position: relative;
-  background: rebeccapurple;
+  background-image: url("../images/water.png");
+  background-size: cover;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -4160,7 +4162,8 @@ li:nth-child(3) button {
 #a4 {
   display: inline-block;
   position: relative;
-  background: rebeccapurple;
+  background-image: url("../images/health.png");
+  background-size: contain;
   width: 200px;
   height: 200px;
   border-radius: 50%;
