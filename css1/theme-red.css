@@ -447,7 +447,7 @@ a {
 }
 .image-bg a,
 .bg-primary a {
-  color: #fff;
+  color: black;
 }
 .image-bg a:hover,
 .bg-primary a:hover {
