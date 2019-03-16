@@ -1734,7 +1734,7 @@ body.menu-is-open {
   height: 100%;
   width: 30%;
   background: #0C0C0C;
-  color: rgba(255, 255, 255, 0.25);
+  color: #800000;
   overflow-y: auto;
   overflow-x: hidden;
   position: fixed;
