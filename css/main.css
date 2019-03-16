@@ -121,13 +121,42 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  margin-top: 6rem;
-  margin-bottom: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2.8rem;
 }
+
+ h4, .h4 {
+  margin-top: 2rem;
+  margin-bottom: 2.8rem;
+}
+h4 {
+  position: relative;
+  /*font-family: sans-serif;*/
+  /*text-transform: uppercase;*/
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #fff, #fff, #fff);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
 
 @media only screen and (max-width:600px) {
   h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-    margin-top: 5.1rem;
+    margin-top: 2rem;
   }
 }
 
@@ -141,6 +170,9 @@ h5, .h5, h6, .h6 {
     margin-top: 3.6rem;
     margin-bottom: 0.9rem;
   }
+
+
+
 }
 
 h1, .h1 {
@@ -149,12 +181,7 @@ h1, .h1 {
   letter-spacing: -.1rem;
 }
 
-@media only screen and (max-width:600px) {
-  h1, .h1 {
-    font-size: 3.3rem;
-    letter-spacing: -.07rem;
-  }
-}
+
 
 h2, .h2 {
   font-size: 3rem;
@@ -167,9 +194,51 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 2.1rem;
-  line-height: 1.286;
+      font-size: 2.4rem;
+      line-height: 1.286;
+      margin-right: 38px;
+  }
+
+@media only screen and (max-width:700px) {
+    h4, .h4 {
+      font-size: 1.9rem;
+      line-height: 1.186;
+      margin-right: 15px;
+  }
 }
+@media only screen and (max-width:600px) {
+    h4, .h4 {
+      font-size: 1.8rem;
+      line-height: 1.186;
+      margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+    h4, .h4 {
+      font-size: 1.4rem;
+      line-height: 1.086;
+      margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+    h4, .h4 {
+      font-size: 1.2rem;
+    line-height: 0.086;
+    margin-right: 12px;
+  }
+}
+
+@media only screen and (max-width:300px) {
+    h4, .h4 {
+      font-size: 1rem;
+      line-height: 0.986;
+      margin-right: 10px;
+  }
+}
+
+
 
 h5, .h5 {
   font-size: 1.8rem;
@@ -1686,7 +1755,7 @@ body.menu-is-open {
   line-height: 1.875;
   padding: 3.6rem 3rem 3.6rem 6rem;
   height: 100%;
-  width: 50%;
+  width: 30%;
   background: #0C0C0C;
   color: rgba(255, 255, 255, 0.25);
   overflow-y: auto;
@@ -1712,7 +1781,9 @@ body.menu-is-open {
 .header-nav a:hover,
 .header-nav a:focus,
 .header-nav a:active {
-  color: white;
+  color:#793ea5;
+  text-decoration: line-through;
+
 }
 
 .header-nav h3 {
@@ -1952,7 +2023,7 @@ body.menu-is-open {
   .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2062,7 +2133,7 @@ body.menu-is-open {
   .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2070,6 +2141,15 @@ body.menu-is-open {
 }
 }
 @media only screen and (max-width:400px) {
+  .home-content {
+  display: table-cell;
+  /*vertical-align: middle;*/
+  padding-top: 10.6rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 4;
+}
   .s-header {
     top: 6px;
   }
@@ -2163,7 +2243,7 @@ body.menu-is-open {
 .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2302,7 +2382,7 @@ body.menu-is-open {
   transform-origin: right bottom;
 }
 
-.home-content__scroll .scroll-link {
+  .scroll-link {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
@@ -2514,7 +2594,7 @@ html.no-csstransitions .home-content__main {
   .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2534,7 +2614,7 @@ html.no-csstransitions .home-content__main {
   .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2560,7 +2640,7 @@ html.no-csstransitions .home-content__main {
   .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2624,7 +2704,7 @@ html.no-csstransitions .home-content__main {
   .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2656,7 +2736,7 @@ html.no-csstransitions .home-content__main {
   .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 15.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2680,7 +2760,7 @@ html.no-csstransitions .home-content__main {
    .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2727,7 +2807,7 @@ html.no-csstransitions .home-content__main {
    .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2756,7 +2836,7 @@ html.no-csstransitions .home-content__main {
   .home-content {
     display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2800,7 +2880,7 @@ html.no-csstransitions .home-content__main {
    .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2820,7 +2900,7 @@ html.no-csstransitions .home-content__main {
    .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 15.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2831,7 +2911,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .home-content__main {
@@ -2862,14 +2942,14 @@ html.no-csstransitions .home-content__main {
    .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 20.6rem;
+  padding-top: 8.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
   z-index: 4;
 }
   .home-content h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
 }
@@ -4126,6 +4206,7 @@ li:nth-child(3) button {
   margin-right: 20px;
 }
 
+
 #a2 {
   display: inline-block;
   position: relative;
@@ -4179,4 +4260,54 @@ li:nth-child(3) button {
   margin-right: 20px; 
 }
 
+
+@media only screen and (max-width:1000px) {
+  #a1 {
+
+  width: 100px;
+  height: 100px;
+}
+
+
+#a2 {
+   width: 100px;
+  height: 100px;
+
+}
+#a3 {
+   width: 100px;
+  height: 100px;
+}
+#a4 {
+   width: 100px;
+  height: 100px;
+}  
+
+}
+
+@media only screen and (max-width:400px) {
+  #a1 {
+
+  width: 100px;
+  height: 100px;
+}
+
+
+#a2 {
+   width: 100px;
+  height: 100px;
+
+}
+#a3 {
+   width: 100px;
+  height: 100px;
+}
+#a4 {
+   width: 100px;
+  height: 100px;
+}  
+
+}
+
 /*# sourceMappingURL=main.css.map */
+
