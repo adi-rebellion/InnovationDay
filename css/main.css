@@ -2199,7 +2199,7 @@ body.menu-is-open {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #111111;
+  /*background-color: #111111;*/
   opacity: .7;
   z-index: 2;
 }
@@ -2209,7 +2209,7 @@ body.menu-is-open {
   content: "";
   width: 50%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  /*background-color: rgba(0, 0, 0, 0.3);*/
   opacity: .5;
   z-index: 3;
   position: absolute;
@@ -2258,7 +2258,7 @@ body.menu-is-open {
   font-size: 3.8rem;
   line-height: 1.342;
   font-style: normal;
-  color: #9c9c9c;
+  color: #fff;
 }
 
 .home-content__main {
@@ -4284,6 +4284,10 @@ footer a {
   border-radius: 5%;
   background-color:#793ea5 ;
   color: #ffffff;
+}
+
+.typewrite{
+  color: #000;
 }
 
 /*# sourceMappingURL=main.css.map */
