@@ -129,29 +129,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   margin-top: 2rem;
   margin-bottom: 2.8rem;
 }
-h4 {
-  position: relative;
-  /*font-family: sans-serif;*/
-  /*text-transform: uppercase;*/
-  font-size: 2em;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(90deg, #fff, #fff, #fff);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 3s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
-}
-
-@keyframes animate {
-  0% {
-    background-position: -500%;
-  }
-  100% {
-    background-position: 500%;
-  }
-}
 
 
 @media only screen and (max-width:600px) {
@@ -2140,6 +2117,19 @@ body.menu-is-open {
   z-index: 4;
 }
 }
+
+@media only screen and (max-width:500px) {
+  .home-content {
+  display: table-cell;
+  /*vertical-align: middle;*/
+  padding-top: 15.6rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 4;
+}
+}
+
 @media only screen and (max-width:400px) {
   .home-content {
   display: table-cell;
@@ -2704,7 +2694,7 @@ html.no-csstransitions .home-content__main {
   .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 8.6rem;
+  padding-top: 16.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2760,7 +2750,7 @@ html.no-csstransitions .home-content__main {
    .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 8.6rem;
+  padding-top: 10.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -2880,7 +2870,7 @@ html.no-csstransitions .home-content__main {
    .home-content {
   display: table-cell;
   /*vertical-align: middle;*/
-  padding-top: 8.6rem;
+  padding-top: 15.6rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -4168,26 +4158,6 @@ footer a {
 }
 
 
-/*
-ul {
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0 20px;
-}
-li:nth-child(1) button {
-  background: #F3FFBD;
-}
-li:nth-child(2) button {
-  background: #247BA0;
-}
-li:nth-child(3) button {
-  background: #FF1654;
-}
-*/
 #a1 {
   display: inline-block;
   position: relative;
@@ -4307,6 +4277,13 @@ li:nth-child(3) button {
   height: 100px;
 }  
 
+}
+
+
+.events:hover{
+  border-radius: 5%;
+  background-color:#793ea5 ;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */
