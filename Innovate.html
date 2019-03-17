@@ -11,9 +11,71 @@
         <link href="css1/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css1/theme-red.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css1/custom.css" rel="stylesheet" type="text/css" media="all" />
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+
     </head>
-    <body class="scroll-assist">
+    <body class="scroll-assist" >
+        <style type="text/css">
+            #footer{
+    position: relative; 
+    margin: 0 auto;
+    width: 100%;
+    background:#292929;
+    padding-top:60px;
+    padding-bottom:35px;
+}
+#footer .back-top{
+    position: absolute; 
+    cursor:pointer;
+    top:-10px;
+    left:50%;
+    margin-left:-20px;
+    width:40px;
+    height:40px;
+    font-family: 'FontAwesome';
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    text-align:center;
+    z-index:10000;  
+    font-size: 22px;
+    line-height: 40px;
+    background:#292929;
+    -webkit-box-shadow: 0 -5px 15px -5px #000;
+    -moz-box-shadow: 0 -5px 15px -5px #000;
+    box-shadow: 0 -5px 15px -5px #000;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+#footer .back-top:hover{
+    background:#292929;
+    -webkit-box-shadow: 0 -5px 5px -5px #000;
+    -moz-box-shadow: 0 -5px 5px -5px #000;
+    box-shadow: 0 -5px 5px -5px #000;
+}
+#footer p{
+    text-transform:uppercase;
+    font-size: 12px;
+    line-height:22px;
+    text-align:center;
+    padding-bottom:5px;
+}  
+.icon-footer{
+    font-family: 'FontAwesome'; 
+    font-size: 16px;
+    line-height: 22px;
+    text-align:center;
+    z-index:6;
+    padding-left:5px;
+    padding-right:5px;
+} 
+
+ 
+ 
+        </style>
         <div class="nav-container">
             <a id="top"></a>
             <!-- <nav class="bg-dark">
@@ -640,7 +702,7 @@
                 </div>
             </nav>
         </div>
-        <div class="main-container">
+        <div class="main-container" id="head">
             <section class="fullscreen image-bg parallax">
 
                 <div class="background-image-holder">
@@ -1076,6 +1138,9 @@ Aero   </h5>
                     </p>
                 </div>
             </section>
+
+
+
             <footer class="footer-1 bg-dark">
                 <div class="container">
                     <div class="row">
@@ -1163,6 +1228,16 @@ Aero   </h5>
                     </div>
                 </div> -->
                 <!--end of container-->
+                <hr>
+                 <div id="footer">
+                <a class="scroll" href="#head"><div class="back-top"><i class="fas fa-angle-double-up" style="color: #eda423"></i></div></a> 
+                <div class="container">
+                    <div class="sixteen columns">
+                        <p>Made with &nbsp; <i class="fas fa-heart" style="color: #eda423">&nbsp; </i>&nbsp; and &nbsp;&nbsp; <i class="fas fa-coffee" style="color: #eda423"></i>&nbsp; &nbsp;   in Karunya</p>
+                        <p>© 2019 All Rights Reserved CTC WEB DEVELOPERS &nbsp;<i class="fas fa-code" style="color: #eda423"></i></p>
+                    </div>
+                </div>  
+            </div>
                 <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
             </footer>
         </div>

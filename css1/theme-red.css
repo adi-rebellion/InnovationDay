@@ -571,7 +571,7 @@ ul.lead li {
 /*!---------- 5. SECTIONS ----------*/
 section,
 footer {
-  padding: 96px 0;
+  padding: 0.01px 0;
   position: relative;
   overflow: hidden;
 }
