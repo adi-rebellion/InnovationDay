@@ -554,7 +554,7 @@ ul.lead li {
   background: #fff;
 }
 .bg-dark {
-  background: #292929;
+  background: black;
 }
 .color-body {
   color: #666;
@@ -571,7 +571,7 @@ ul.lead li {
 /*!---------- 5. SECTIONS ----------*/
 section,
 footer {
-  padding: 0.01px 0;
+  padding: 0px 0;
   position: relative;
   overflow: hidden;
 }
