@@ -2258,7 +2258,7 @@ body.menu-is-open {
   font-size: 3.8rem;
   line-height: 1.342;
   font-style: normal;
-  color: #fff;
+  color: #000;
 }
 
 .home-content__main {
@@ -4166,7 +4166,7 @@ footer a {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid #000;
   color: white;
   font-family: Verdana;
   font-weight: bold;
@@ -4185,7 +4185,7 @@ footer a {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid #000;
   color: white;
   font-family: Verdana;
   font-weight: bold;
@@ -4203,7 +4203,7 @@ footer a {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid #000;
   color: white;
   font-family: Verdana;
   font-weight: bold;
@@ -4220,7 +4220,7 @@ footer a {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid #000;
   color: white;
   font-family: Verdana;
   font-weight: bold;
